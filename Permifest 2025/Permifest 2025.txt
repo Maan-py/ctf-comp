@@ -1,0 +1,61 @@
+Soal CTF Permifest 2025
+A. Web Exploitation
+1. Manipulator
+Pada tantangan ini, peserta diajak untuk memahami konsep manipulasi data pada
+aplikasi web. Dengan mengeksplorasi celah keamanan yang mungkin terdapat
+dalam sistem, peserta akan belajar bagaimana suatu input dapat dimanipulasi untuk
+mendapatkan output yang tidak semestinya. Tantangan ini menguji kemampuan
+dalam memahami dan mengeksploitasi logika aplikasi web untuk mencapai hasil
+yang diinginkan.
+Link : http://103.175.221.240:5110/
+
+Flag : PMCTF{m4afin_admin_nih_fl4nya_admin_b4ikkan}
+2. Command Trickery
+Sebuah web diatur untuk melakukan pengujian terhadap domain menggunakan
+perintah dig. Namun, tampaknya ada celah yang dapat dimanfaatkan untuk
+mendapatkan akses lebih dari seharusnya. Bisakah kamu menemukan cara untuk
+membaca file penting di sistem?
+filter : [';', '&', '|', '||', '&&', '>', '<', '(', ')', '{', '}', '[', ']', '\\', '\'', '"', '!', '*', '?', '~', '#', '%',
+'+', ' ']
+Link : http://103.175.221.240:7000/
+B. Reverse Engineering
+3. XOR Descryption Fun
+Kamu mendapatkan sebuah binary yang meminta flag sebagai input. Jika flag benar,
+program akan memberikan pesan sukses.Namun, kamu tidak memiliki akses
+langsung ke flag! Bisakah kamu mereverse-engineer binary ini dan menemukan
+flag yang tersembunyi?
+Link: https://drive.google.com/file/d/13s7f297ewuT-DnC-fX8qAHmF-SaZG5b/view?usp=sharing
+C. PWN
+4. Overflow the Gate
+Bisakah kamu menemukan cara untuk menguasai aplikasi ini dan mendapatkan
+akses ke flag tersembunyi?
+• Koneksi: nc 103.175.221.240 1337
+• Link:
+https://drive.google.com/file/d/19maQo3MopFHKnzBCeWC23Jv3Q7Ah1
+owe/view?usp=sharing
+
+D. Cryptography
+5. Emperor Secret
+Sang Kaisar telah meninggalkan pesan rahasia untukmu. Namun, pesan tersebut
+telah dienkripsi menggunakan metode kuno.
+beruntungnya agen kita berhasil menemukan file yang digunakan untuk
+mengenkripsi pesannya
+• Pesan terenkripsi:
+c2a7c3b3c39cc3b1c28b18c2aac2940e51c3b671c2a10fc2b3c387c2bb12c3
+b9c39cc3a2c3bc0b
+• Link: https://drive.google.com/drive/folders/1jRlWhJGslMeLJ3N66dg_MR9CPGNO-h7?usp=sharing
+ Flag : PMCTF{flag_adm1n_m4l4s}
+
+6. Triple Lock Encryption
+Kami dapat pesan yang kata pak jono mengandung 3 lapis enkripsi, untungnya kami
+juga diberi file yang digunakan untuk mengenkripsinya
+• Pesan: RkNTSlZ7NGQ0YnlpeWlfZmtkczRhX2EzaWthaXVpcWR9
+• Link:
+https://drive.google.com/file/d/14gCyhUfgQt7iHvoMrNaUa1GNoTKBJH
+YO/view?usp=sharing
+
+Flag : PMCTF{4n4lisis_punc4k_k3suksesan}
+
+E. Misc
+7. Bonus
+flag:PMCTF{t4k_k4sih_flag_Gr4t1s_nih}
