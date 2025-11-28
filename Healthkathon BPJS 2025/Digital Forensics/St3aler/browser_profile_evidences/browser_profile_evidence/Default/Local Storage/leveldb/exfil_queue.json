@@ -1,0 +1,31 @@
+{
+  "timestamp": "2024-10-15T14:23:11.442Z",
+  "victim_id": "VID-7f3a9c2d8e1b4f6a",
+  "exfil_count": 47,
+  "last_sync": "2024-10-15T14:20:00.000Z",
+  "domains": [
+    {
+      "host": "github.com",
+      "cookies": [
+        {
+          "name": "user_session",
+          "value": "ghs_1a2b3c4d5e6f7g8h9i0j"
+        },
+        {
+          "name": "_gh_sess",
+          "value": "abcdef123456"
+        }
+      ]
+    },
+    {
+      "host": "linkedin.com",
+      "cookies": [
+        {
+          "name": "li_at",
+          "value": "AQEDATvwBQABCD123XYZ"
+        }
+      ]
+    }
+  ],
+  "notes": "Check stats endpoint for aggregated data"
+}

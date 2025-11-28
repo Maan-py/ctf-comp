@@ -1,0 +1,29 @@
+nousagi
+1000
+harikitte ikouu!!
+
+nc 20.6.89.33 8054
+
+hint 1 : you NEED to deep dive into mt19337's implementation, e.g. https://github.com/yinengy/Mersenne-Twister-in-Python/blob/master/MT19937.py
+
+remember that the individual outputs doesn't have to be equal, just the xor sum in the end
+
+also note how the states in mt19337 work, does the ordering of the state matter much? what happens if you mess with particular bits?
+
+hint 2 :my solver works exactly 50% of the time (per connection)
+
+maybe you can't calculate everything, just look at how the bits change
+
+hint 3: observe what happens if you shift the states
+
+[s0, s1, ..., s622, s623]
+
+vs
+
+[s1, s2, ..., s623, junk]
+
+do all the outputs change? maybe only some of them are important? look at how the mt19337 implementation processes this
+
+now how would you solve this if there was no timeout?
+
+finally, observe what happens when you change each bit, maybe you can just observe each bit separately

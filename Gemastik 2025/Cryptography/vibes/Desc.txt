@@ -1,0 +1,7 @@
+vibes
+999
+I heard vibe coding on CTF is a thing now, so why don't I vibe code to create challs too?
+
+https://chatgpt.com/share/68ac911c-7044-8007-a444-99bce43176a1
+
+nc 20.6.89.33 8055

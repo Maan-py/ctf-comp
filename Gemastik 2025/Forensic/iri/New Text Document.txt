@@ -1,0 +1,11 @@
+iri
+999
+Temanku iri karena aku mengerjakan tugas akhir kuliah lebih cepat darinya, tolong bantu analisis forensic artifact ini dan jawab pertanyaan yang sudah disediakan
+
+Selalu gunakan sandboxed environment untuk menganalisis forensic artifact
+
+nc 165.232.133.53 9081
+
+hint 1 : Masih bingung analisis malwarenya? Daripada static reverse, lebih baik menggunakan pendekatan memory dumping
+hint 2 : coba pelajari struktur file .hg :))
+hint 3 : key dan iv memiliki karakter a-f0-9 dan len == 16

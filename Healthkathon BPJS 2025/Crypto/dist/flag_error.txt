@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\CTF\Healthkathon BPJS 2025\Crypto\dist\solve.py", line 266, in <module>
+    main()
+    ~~~~^^
+  File "E:\CTF\Healthkathon BPJS 2025\Crypto\dist\solve.py", line 193, in main
+    s.connect((host, port))
+    ~~~~~~~~~^^^^^^^^^^^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it

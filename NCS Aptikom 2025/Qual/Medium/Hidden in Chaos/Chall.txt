@@ -1,0 +1,3 @@
+Seseorang menemukan pesan terenkripsi yang katanya menyimpan flag. Namun, metode yang digunakan bukanlah enkripsi biasa — melainkan gabungan beberapa teknik klasik yang dimodifikasi.
+
+5f5d6a6e412a664a55617b4c60677b5f666c5d4a456228667d413d687475726e

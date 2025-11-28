@@ -1,0 +1,6 @@
+The-Old-Norse-theonym
+100
+FlaB
+
+WARNING!!! Run binary in folder that only contain the file that want you encrypt!
+

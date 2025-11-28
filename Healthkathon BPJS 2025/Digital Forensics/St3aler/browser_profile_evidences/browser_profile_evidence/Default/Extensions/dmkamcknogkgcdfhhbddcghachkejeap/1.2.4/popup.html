@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #ffffff;
+        }
+        h2 {
+            margin: 0 0 15px 0;
+            font-size: 18px;
+        }
+        .toggle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        .status {
+            margin-top: 10px;
+            padding: 10px;
+            background: #333;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h2>🌙 Dark Mode Plus</h2>
+    
+    <div class="toggle">
+        <span>Enable Dark Mode</span>
+        <label class="switch">
+            <input type="checkbox" id="enableToggle" checked>
+        </label>
+    </div>
+    
+    <button id="syncBtn">Sync Settings</button>
+    
+    <div class="status" id="status">
+        Extension active
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

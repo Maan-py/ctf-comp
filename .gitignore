@@ -1,0 +1,53 @@
+# File besar yang melebihi batas GitHub (100MB)
+# File-file ini disimpan di Google Drive: https://drive.google.com/drive/folders/1pctX9gAdF1IcTxR52ZS0BY2LzB7SFS52
+
+# File besar spesifik yang melebihi 100MB
+Gemastik 2025/Forensic/Hacked/dump.zip
+Wreck IT 6.0 2025/Junior_LastSeenIn2026_Writeup.pdf
+
+# File arsip besar (biasanya > 50MB) - uncomment jika perlu
+# **/*.zip
+# **/*.7z
+# **/*.rar
+# **/*.tar.xz
+# **/*.tar.gz
+# **/*.tar.bz2
+
+# PDF besar (lebih dari 50MB) - sebagian besar disimpan di Google Drive
+*.pdf
+
+# Kecuali PDF kecil yang perlu di-track
+!**/WriteUp*.pdf
+!**/WU_*.pdf
+!**/SOLUTION*.pdf
+!**/*writeup*.pdf
+!**/*Write-Up*.pdf
+
+# File sementara
+*.tmp
+*.log
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+

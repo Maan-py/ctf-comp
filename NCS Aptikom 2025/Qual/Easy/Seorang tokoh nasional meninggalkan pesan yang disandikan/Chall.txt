@@ -1,0 +1,6 @@
+Seorang tokoh nasional meninggalkan pesan yang disandikan 
+menggunakan metode Vigenère Cipher. Berikut adalah pesan yang 
+ditemukan: 
+tcj{mhmgnxuw_kkbrhjsgae} 
+Kunci yang digunakan untuk mengenkripsi pesan adalah: Lambang 
+Negara
