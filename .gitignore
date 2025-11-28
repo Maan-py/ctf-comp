@@ -13,8 +13,6 @@ Wreck IT 6.0 2025/Junior_LastSeenIn2026_Writeup.pdf
 # **/*.tar.gz
 # **/*.tar.bz2
 
-# PDF besar (lebih dari 50MB) - sebagian besar disimpan di Google Drive
-*.pdf
 
 # Kecuali PDF kecil yang perlu di-track
 !**/WriteUp*.pdf
